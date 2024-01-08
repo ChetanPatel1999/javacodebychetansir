@@ -34,13 +34,20 @@ public class ExampleOFDataTypes {
     }
     public static void main(String[] args) {
        ExampleOFDataTypes o1=new ExampleOFDataTypes();// create object of ExampleOfDataType class
-        o1.showMethod();
+       // o1.showMethod();
         //o1.showSizeRange()
-        
-        System.out.println(s);
-       
-        
-      
+       // System.out.println(s);
+       float var =12.34F;
+       double d=45.67;
+       long num1 = 78L;
+      // float num2=78.90;// we cant assign double literals into float data type variable  
+     //int num3=34.56; // we cant assign double literals into int data type variable 
+     double d9=45;//implicit convertion  
+     float d1=(float)45.89;// expicit convertion
+       int num4=(int)89.8; // explicit convertion
+       int na='A';//implicit convertion
+     // int f="hi";//inconvertat type
+     // int h=true;
        
     }
     
