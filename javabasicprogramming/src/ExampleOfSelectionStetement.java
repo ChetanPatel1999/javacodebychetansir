@@ -101,13 +101,123 @@ public class ExampleOfSelectionStetement {
             System.out.println("please enter corract number");
         }
     }
+    
+    //wap to print day name according to number.
+    void SwitchCase()
+    {
+        int num=1;
+        switch(num)
+        {
+            case 1:
+                System.out.println("monday");
+                break;
+            case 2:
+                System.out.println("tuesday");
+                break;
+            case 3:
+                System.out.println("wednesday");
+                break;
+            case 4:
+                System.out.println("thursday");
+                break;
+            case 5:
+                System.out.println("friday");
+                break;
+            case 6:
+                System.out.println("saturday");
+                break;    
+            case 7:
+                System.out.println("sunday");
+                break;
+            default:
+                System.out.println("plese eneter corract number");
+        }
+            
+        }
+        //wap to print state name acording to given short name.
+        void switchCase1()
+        {
+            String s="up";
+            switch(s)
+            {
+                case "mp":
+                    System.out.println("madhyapradesh");
+                    break;
+                case "up":
+                    System.out.println("uttarpradesh");
+                    break;
+                default:
+                    System.out.println("please enter correct short name of state");
+            }
+        }
+        //wap to make calculater.
+        void switchCase2()
+        {
+            System.out.println("press + for addition :-");
+            System.out.println("press - for sub :-");
+            System.out.println("press * for mul :-");
+            System.out.println("press / for div :-");
+            char ch='+';
+            switch (ch)
+            {
+                case '+':
+                    
+                   //addition
+                case '-':
+                    //sutraction
+                case '*':
+                    //multiplication
+            }
+        }
+        
+        //for loop example
+        
+        void forLoop()
+        {
+            System.out.println("its for loop");
+            for (int i=5 ;i<=10 ;i++ )
+            {
+                System.out.println("welcome to my home");
+            }
+          System.out.println("after for loop");
+        }
+        //wap to print 1 to 10 numbers
+        void printNumber1_10()
+        {
+            for (int i=1;i<=10;i++)
+            {
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
+        //wap to print 100 to 1 numbers
+        void printNumber100_1()
+        {
+            for (int i=100;i>=1;i--)
+            {
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
+        //home work
+        //wap to print "hello word" 10 times.
+        //wap to print number between 50 to 100
+        //wap to print numbers 78 to 34.
+        //wap to print even numbers between 1 to 20.
+        //wap to print odd numbers between 1 to 20.
+        
     public static void main(String[] args) {
         ExampleOfSelectionStetement obj = new ExampleOfSelectionStetement();
         //obj.chckeVoterEligiblity();
         //obj.checkNumbers();
        // obj.findGreatest();
        //obj.checkPositiveNegetive();
-       obj.printDayName();
+       //obj.printDayName();
+       //obj.SwitchCase();
+      // obj.switchCase1();
+      //obj.forLoop();
+      //obj.printNumber1_10();
+      obj.printNumber100_1();
     }
     
 }
