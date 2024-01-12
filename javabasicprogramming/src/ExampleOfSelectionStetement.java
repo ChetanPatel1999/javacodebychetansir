@@ -170,41 +170,7 @@ public class ExampleOfSelectionStetement {
             }
         }
         
-        //for loop example
         
-        void forLoop()
-        {
-            System.out.println("its for loop");
-            for (int i=5 ;i<=10 ;i++ )
-            {
-                System.out.println("welcome to my home");
-            }
-          System.out.println("after for loop");
-        }
-        //wap to print 1 to 10 numbers
-        void printNumber1_10()
-        {
-            for (int i=1;i<=10;i++)
-            {
-                System.out.print(i+" ");
-            }
-            System.out.println();
-        }
-        //wap to print 100 to 1 numbers
-        void printNumber100_1()
-        {
-            for (int i=100;i>=1;i--)
-            {
-                System.out.print(i+" ");
-            }
-            System.out.println();
-        }
-        //home work
-        //wap to print "hello word" 10 times.
-        //wap to print number between 50 to 100
-        //wap to print numbers 78 to 34.
-        //wap to print even numbers between 1 to 20.
-        //wap to print odd numbers between 1 to 20.
         
     public static void main(String[] args) {
         ExampleOfSelectionStetement obj = new ExampleOfSelectionStetement();
@@ -215,9 +181,7 @@ public class ExampleOfSelectionStetement {
        //obj.printDayName();
        //obj.SwitchCase();
       // obj.switchCase1();
-      //obj.forLoop();
-      //obj.printNumber1_10();
-      obj.printNumber100_1();
+      
     }
     
 }
