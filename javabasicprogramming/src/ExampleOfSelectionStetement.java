@@ -171,7 +171,17 @@ public class ExampleOfSelectionStetement {
         }
         
         
-        
+     void secondConvertIN_H_M_S()
+     {
+         int sec=4567;
+         int rem,h,m;
+         h=sec/3600;
+         rem=sec%3600;
+         m=rem/60;
+         sec=rem%60;
+         System.out.println("hours = "+h+"\nminut = "+m+"\nsecond = "+sec);
+         
+     }
     public static void main(String[] args) {
         ExampleOfSelectionStetement obj = new ExampleOfSelectionStetement();
         //obj.chckeVoterEligiblity();
@@ -181,7 +191,7 @@ public class ExampleOfSelectionStetement {
        //obj.printDayName();
        //obj.SwitchCase();
       // obj.switchCase1();
-      
+      obj.secondConvertIN_H_M_S();
     }
     
 }
