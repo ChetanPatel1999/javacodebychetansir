@@ -40,11 +40,48 @@ public class Operators {
      System.out.println("a = "+a);
      System.out.println("b = "+b);
  }
+ void assignmentOpera()
+ {
+     int a=12;
+     int b=5;
+    // b+=b;// b=b+b compound assign.
+     //a*=b;
+    // b%=a;
+     a%=b;
+     System.out.println("a = "+a);
+     System.out.println("b = "+b);
+ }
+ void bitwise()
+ {
+     int a=7;
+     int b=3,ans;
+    // ans = a&b;
+    //ans=a|b;
+   // ans =a^b;
+   //  ans=a<<b;
+   // ans =a>>b;
+   ans=~a;
+     System.out.println("ans = "+ans);
+     
+ }
+ void logical()
+ {
+     int a=89;
+     int b=7;
+     boolean ans;
+     //ans= !(a<b);
+     //ans= !((a<788) && (b<9) && (2<8));
+     ans=(((a<78) || (b<9)) && (2<8));
+     System.out.println("ans = "+ans);
+ }
     public static void main(String[] args) {
         Operators obj=new Operators();
         //obj.airthmatic();
        // obj.comparision();
-       obj.increamentDecreament();
+       //obj.increamentDecreament();
+       //obj.assignmentOpera();
+      // obj.bitwise();
+      obj.logical();
     }
 }
 
