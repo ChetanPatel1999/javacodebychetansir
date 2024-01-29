@@ -10,6 +10,7 @@ public class ReportCard {
         s1.reportcard();
         s2.reportcard();
         s3.reportcard();
+        Student.showOverallresult();
         
         
     }
