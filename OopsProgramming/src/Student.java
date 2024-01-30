@@ -12,7 +12,7 @@ public class Student {
      name=b;
      per=c;
   }
-  public void reportcard()
+   public void reportcard()
   {
       System.out.println("Reportcard of student.......");
       System.out.println("roll number : "+rno);
