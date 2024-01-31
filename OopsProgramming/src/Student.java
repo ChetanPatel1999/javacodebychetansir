@@ -37,6 +37,28 @@ public class Student {
       System.out.println("totalfail student = "+totalfail);
          
   }
+  public static void showGread(Student obj)
+  {
+      if(obj.per>80)
+      {
+          System.out.println("gread = A");
+      }
+      else if(obj.per>60)
+      {
+          System.out.println("Gread = B");
+      }
+      else
+      {
+          System.out.println("Gread = C");
+      }
+  }
+  public static void great()
+  {
+      System.out.println("thanks for using my student class");
+  }
   
-  
+  public static void showAvrage(Student obj1,Student obj2)
+  {
+      System.out.println("avrage marks of "+obj1.rno+","+obj2.rno+" = "+((obj1.per+obj2.per)/2)); 
+  }
 }
