@@ -9,7 +9,7 @@ public class Demo2 {
     }
     static void disp()//static method 
     {
-        System.out.println(a +","+b);//its show error
+        //System.out.println(a +","+b);//its show error
         System.out.println(p+","+q);
     }
     public static void main(String[] args) {
