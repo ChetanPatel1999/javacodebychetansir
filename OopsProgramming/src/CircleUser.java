@@ -1,10 +1,8 @@
 
 public class CircleUser {
     public static void main(String[] args) {
-        Circle c1=new Circle(); // object is instance of Circle class
-        c1.setRadius(5);
+        Circle c1=new Circle(5); // object is instance of Circle class
         c1.computeArea();
-        c1.computeCircumference();
-       
+        c1.computeCircumference();  
     }
 }

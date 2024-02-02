@@ -6,7 +6,7 @@ public class Student {
   private static int totalpass;
   private static int totalfail;
   
-  public void setdata(int a,String b,int c)
+  public Student(int a,String b,int c)
   {
      rno=a;
      name=b;

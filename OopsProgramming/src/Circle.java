@@ -3,7 +3,7 @@ public class Circle {
     //define propertice using data member
     private double radius,area,circumference; // non static
     //operation on propertice using methods (member fuction)
-    public void setRadius(double r)
+    public Circle(double r)
     {
         radius=r;
     }
