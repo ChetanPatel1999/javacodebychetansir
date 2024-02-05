@@ -1,36 +1,25 @@
 
 public class Test {
-   private  int a,b,c;
-   Test(){}
-   Test(int x)
+   private  int x,y;
+   Test(int a,int b)
    {
-       a=x;
+       x=a;
+       y=b;
    }
-   Test(int x,int y)
-  {
-      this(x);//this call one arg constructer
-      b=y; 
-  }
-   Test(int x,int y,int z)
-  {
-      this(x,y);// this call two arg constructor
-      c=z;
-  }
-  void showdata()
-  {
-     
-      System.out.println(a+","+b+","+c);
-  }
+   void show()
+   {
+       System.out.println(x+","+y);
+   }
+ 
     public static void main(String[] args) {
-        Test t1=new Test();
-        Test t2=new Test(45,78);
-        Test t3=new Test(1,2,3);
-        t1.showdata();
-        t2.showdata();
-        t3.showdata();
-              
-        
-        
-      
+     Test t1;
+     Test t2=new Test(34,67);
+     Test t3=t2; 
+     t1=t2;
+     t2.show();
+     t3.show();
+     t1.show();
+     t3=new Test(12,13);
+     t3.show();
     }
 }
