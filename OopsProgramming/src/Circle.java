@@ -3,9 +3,9 @@ public class Circle {
     //define propertice using data member
     private double radius,area,circumference; // non static
     //operation on propertice using methods (member fuction)
-    public Circle(double r)
+    public Circle(double radius)
     {
-        radius=r;
+        this.radius=radius;
     }
     public void computeArea()
     {

@@ -5,13 +5,26 @@ public class Student {
   private int per;
   private static int totalpass;
   private static int totalfail;
+
+    public Student(int rno, String name, int per) {
+        this.rno = rno;
+        this.name = name;
+        this.per = per;
+    }
+
+    public Student(int rno, String name) {
+        this.rno = rno;
+        this.name = name;
+    }
+
+    public Student(int rno) {
+        this.rno = rno;
+    }
+
+    public Student() {
+    }
   
-  public Student(int a,String b,int c)
-  {
-     rno=a;
-     name=b;
-     per=c;
-  }
+ 
    public void reportcard()
   {
       System.out.println("Reportcard of student.......");

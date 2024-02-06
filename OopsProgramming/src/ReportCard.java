@@ -1,10 +1,10 @@
 
 public class ReportCard {
     public static void main(String[] args) {
-        Student s1=new Student(1001,"chetan",90);
+        Student s1=new Student(1001);
         Student s2=new Student(1002,"aman",57);
         Student s3=new Student(1003,"rohit",34);
-        Student s4=new Student(1004,"raj",12);
+        Student s4=new Student(1004,"raj");
         
         s1.reportcard();
         s2.reportcard();
