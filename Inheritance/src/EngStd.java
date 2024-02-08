@@ -19,6 +19,7 @@ public class EngStd extends Std{
         s1.setEngStdData(2, "EC");
         s1.showStdData();
         s1.showEngStdData();
+         s1.result(35);
         
     }
     

@@ -7,10 +7,23 @@ public class MedStd extends Std {
         this.prof=prof;
         this.spec=spec;
     }
-    public void showMedStdData()
+    public String toString()
     {
-        System.out.println("prof = "+prof);
-        System.out.println("spec = "+spec);
+        String s;
+        s=spec;
+        return s;
+    }
+    void result(int per)
+    {
+        if(per>40)
+        {
+            System.out.println("student pass");
+         
+        }
+        else
+        {
+            System.out.println("student fail");
+        }
     }
     
     public static void main(String[] args) {
@@ -18,7 +31,11 @@ public class MedStd extends Std {
         s1.setStdData("chetan",1001);
         s1.setMedStdData(2, "artho");
         s1.showStdData();
-        s1.showMedStdData();
+        System.out.println(s1.toString());
+       
+        
+        
+        
         
     }
 }
