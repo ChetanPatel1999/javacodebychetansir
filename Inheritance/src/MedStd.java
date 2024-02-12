@@ -2,16 +2,17 @@
 public class MedStd extends Std {
     private int prof;
     private String spec;
-    public void setMedStdData(int prof,String spec)
+    public MedStd(String name ,int rno,int prof,String spec)
     {
+        super(name,rno);
         this.prof=prof;
         this.spec=spec;
     }
-    public String toString()
+    public void showData()
     {
-        String s;
-        s=spec;
-        return s;
+        super.showData();
+        System.out.println("prof = "+prof);
+        System.out.println("spec = "+spec);
     }
     void result(int per)
     {
@@ -27,11 +28,9 @@ public class MedStd extends Std {
     }
     
     public static void main(String[] args) {
-        MedStd s1=new MedStd();
-        s1.setStdData("chetan",1001);
-        s1.setMedStdData(2, "artho");
-        s1.showStdData();
-        System.out.println(s1.toString());
+        MedStd s1=new MedStd("aman",1002,2, "artho");
+        s1.showData();
+        
        
         
         
