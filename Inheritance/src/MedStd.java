@@ -14,7 +14,7 @@ public class MedStd extends Std {
         System.out.println("prof = "+prof);
         System.out.println("spec = "+spec);
     }
-    void result(int per)
+    public void result(int per)
     {
         if(per>40)
         {

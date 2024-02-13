@@ -21,5 +21,18 @@ public class EngStd extends Std{
         s1.result(35);
         
     }
+     public void result(int per)
+    {
+        if(per>33)
+        {
+     
+            System.out.println("student pass");
+         
+        }
+        else
+        {
+            System.out.println("student fail");
+        }
+    }
     
 }
