@@ -28,8 +28,8 @@ class Threetable extends Thread
 }
 public class MTdemo {
     public static void main(String[] args) {
-        Twotable ob1= new Twotable();
-        Threetable ob2= new Threetable();
+        Twotable ob1= new Twotable();// create a thread 
+        Threetable ob2= new Threetable();// create a thraed
         //ob1.print();
         //ob2.print();
         ob1.start();
